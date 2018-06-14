@@ -65,7 +65,7 @@ class MainViewController: UIViewController, UITableViewDelegate , UITableViewDat
     
     func numberOfSections(in tableView: UITableView) -> Int {
         info .reserveCapacity(1)
-        return info.count;
+        return info.count ;
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
